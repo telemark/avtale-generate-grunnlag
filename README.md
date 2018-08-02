@@ -8,7 +8,7 @@ Genererer grunnlag for dokumenter og avtaler på bakgrunn av elevdata fra Vigo e
 # Bruk
 
 - Legg datafilen fra Extens eller Vigo i kø-mappen (```test/directories/queue```)
-- Start roboten ```$ npm start````
+- Start roboten ```$ npm start```
 - Det opprettes 1 jobb pr person/dokument i jobb-mappen (```test/directories/jobs```)
 - Jobbene kan nå plukkes opp av ```avtale-generator```
 
