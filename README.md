@@ -4,6 +4,15 @@
 # avtale-generate-grunnlag
 
 Genererer grunnlag for dokumenter og avtaler på bakgrunn av elevdata fra Vigo eller Extens.
+Forutsetter at data er i en .csv-fil og at den har `.job.` som en del av filnavnet (eks: 2018-08-06.job.csv)
+
+Det må også være "ekte" .csv mao kommaseparert
+
+```
+Enhet,Programområde,Personid,Basisgruppe,,Fornavn,Epost,Etternavn,PC,Skoleår,Kol1,Orgnr
+BAMVS,ELELE1----,01020304050,,ELELE1----,Ulla,,Norakk,,1,,974568098
+BAMVS,TPTIP1----,06070809100,,TPTIP1----,Anton,,Gåbortbukser,,1,,974568098
+```
 
 # Bruk
 

@@ -50,11 +50,7 @@
     "standard": "11.0.1"
   },
   "dependencies": {
-    "axios": "0.18.0",
-    "dotenv": "6.0.0",
-    "tfk-schools-info": "2.1.1",
-    "uuid": "3.3.2",
-    "winston": "2.4.3",
-    "winston-papertrail": "1.0.5"
+    "csvtojson": "2.0.8",
+    "uuid": "3.3.2"
   }
 }
