@@ -51,6 +51,6 @@
   },
   "dependencies": {
     "csvtojson": "2.0.8",
-    "uuid": "3.3.2"
+    "uuid-random": "1.0.6"
   }
 }
