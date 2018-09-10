@@ -1,4 +1,5 @@
 const getNextFromQueue = require('./lib/steps/get-next-from-queue')
+const filterDuplicates = require('./lib/steps/filter-duplicates')
 const generateJobs = require('./lib/steps/generate-jobs')
 const saveJobs = require('./lib/steps/save-jobs')
 const logger = require('./lib/logger')
@@ -6,6 +7,7 @@ const logger = require('./lib/logger')
 logger('info', ['index', 'start'])
 
 getNextFromQueue()
+  .then(filterDuplicates)
   .then(generateJobs)
   .then(saveJobs)
   .then(data => {
