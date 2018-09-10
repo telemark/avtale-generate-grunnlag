@@ -11,7 +11,7 @@ getNextFromQueue()
   .then(generateJobs)
   .then(saveJobs)
   .then(data => {
-    logger('info', ['index', 'jobs', data.length, 'finished'])
+    logger('info', ['index', 'jobs', 'finished'])
     process.exit(0)
   })
   .catch(error => {
