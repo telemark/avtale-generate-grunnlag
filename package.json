@@ -52,7 +52,7 @@
   "dependencies": {
     "csvtojson": "2.0.8",
     "dotenv": "7.0.0",
-    "uuid-random": "1.0.6",
+    "uuid-random": "1.0.7",
     "winston": "2.4.4",
     "winston-papertrail": "1.0.5"
   }
