@@ -28,5 +28,3 @@ BAMVS,TPTIP1----,06070809100,,TPTIP1----,Anton,,Gåbortbukser,,1,,974568098
 # Lisens
 
 [MIT](LICENSE)
-
-![Robohash image of avtale-generate-grunnlag](https://robots.kebabstudios.party/avtale-generate-grunnlag.png "Robohash image of avtale-generate-grunnlag")
